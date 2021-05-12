@@ -4,16 +4,16 @@ import '../styles/App.css';
 class App extends Component {
     constructor(props) {
 		super(props);
-		this.state={
-			flag:false
-		}
-	};
-	abc() {
-      this.setState({
-		  flag:true
-	  })
-	}
-	 text() {
+	// 	this.state={
+	// 		flag:false
+	// 	}
+	// };
+	// abc() {
+    //   this.setState({
+	// 	  flag:true
+	//   })
+	// }
+	 }; text() {
 		document.getElementById("para").innerHTML= "Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy";
 	}
     render() {
@@ -28,7 +28,5 @@ class App extends Component {
     	);
     }
 }
-
-
 export default App;
 
