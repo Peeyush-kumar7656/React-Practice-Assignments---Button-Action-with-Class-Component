@@ -14,13 +14,13 @@ class App extends Component {
 	  })
 	}
 	 text() {
-		document.getElementById("para").innerHTML="Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy";
+		document.getElementById("para").innerHTML= "Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy";
 	}
     render() {
     	return(
     		<div id="main">
 			<p id="para"></p>
-			<button id ="click" onClick={()=>this.text()}>Click me</button>
+			<button id ="click" onClick={()=>this.text()}></button>
 			{/* {this.state.flag && <p id="para">Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy</p>}
 				<button id="click" onClick = {()=>this.abc()}>Click Me</button> */}
 			
